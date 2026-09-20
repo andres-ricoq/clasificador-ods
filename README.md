@@ -2,7 +2,7 @@
 
 A multiclass text classifier that maps free-form Spanish text to one of the 17 UN Sustainable Development Goals (SDGs), deployed as an interactive web app.
 
-**Live demo:** [[clasificador-ods-blhkm5ky27fcijjctfnymk.streamlit.app](https://clasificador-ods-blhkm5ky27fcijjctfnymk.streamlit.app)](https://clasificador-ods-uniandes.streamlit.app/)
+**Live demo:** (https://clasificador-ods-uniandes.streamlit.app/)
 
 ## Overview
 
