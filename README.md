@@ -50,6 +50,8 @@ All steps are wrapped in a single `scikit-learn` `Pipeline`, so the exact same t
 
 Performance is not uniform across classes: SDGs with distinctive vocabulary (16, 4, 5) reach F1 > 0.89, while SDGs sharing socioeconomic vocabulary (8, 9, 10) are harder to separate (F1 between 0.53 and 0.66) — a limitation expected from a bag-of-words representation, discussed in detail in the analysis notebook.
 
+*F1 macro was used as the sole scoring metric during hyperparameter search (`GridSearchCV`); accuracy and F1 weighted were computed only once, on the held-out test set, after model selection.*
+
 ## Tech stack
 
 - **Data processing / ML:** pandas, NumPy, scikit-learn, gensim
@@ -84,4 +86,4 @@ streamlit run app.py
 
 ## Author
 
-Andres — Data Science / Machine Learning
+Andres Rico / Juan Carlos Marin
